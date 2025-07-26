@@ -11,24 +11,16 @@ print("Hello! I'm learning Github")
 ```
 
 #### Level 4 header.
-Learn the basic git commands: 
-Init:
-`git init`
+Bulletpoints
+- One
+- Two
+- Three
 
-To push:
-`git add <Your file(s)> <Your directory(ies)\>`
-`git commit -m "Your commit message"`
-`git push`
+Lists
+1. One
+2. Two
+3. Three
 
-If you want to untrack and have NOT commited yet
-`git restore --staged <Your file(s)> <Your directory(ies)\>`
-
-
-If it has been commited:
-`git rm --cached <Your file(s)> <Your directory(ies)\>`
-
-To pull
-`git clone`
 
 ##### Level 5 header
 Normal text
