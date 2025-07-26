@@ -5,7 +5,7 @@ Some description (text)
 Some description
 
 ### Subsubheader
-Some code from python
-'''
+Some Python code
+```
 print("Hello! I'm learning Github")
-'''
+```
