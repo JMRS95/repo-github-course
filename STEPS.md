@@ -54,18 +54,18 @@ Next. it will generate:
 - A `testkey.pub` file (Private key --> **Keep it safe**)
 
 5. Every time you want to connect/push/use account with your local machine you
-must use your private key. You must **copy the key contained in your testkey.pub**\
+must use your private key. You must **copy the key contained in your testkey.pub**<br>
 - Copy the contents of your `testkey.pub` file (If Visual Studio is used just use
-Ctrl+C on the line.)\
+Ctrl+C on the line.)<br>
 
-6. Go to your []https://github.com/ profile and **save your key**:\
-The steps are:\
-github.com: Your_Profile -> Settings -> SSH-GPG keys (Left side) -> New SSH key.\
+6. Go to your []https://github.com/ profile and **save your key**:<br>
+The steps are:<br>
+github.com: Your_Profile -> Settings -> SSH-GPG keys (Left side) -> New SSH key.<br>
 
 7. Enter your Key in Github:
 - Title: Whatever title you want. 
 - Key type: I used 'Authentication type'
-- Key: Enter your *passphrase*. You **must remember this passphrase or save it in a safe place**\
+- Key: Enter your *passphrase*. You **must remember this passphrase or save it in a safe place**<br>
 
 8. **(Extra)** In your computer, in case you accidentaly created your key in another directory,
 move it to the ~/.ssh folder in your system:
@@ -106,7 +106,7 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/testkey
 ```
 
-12.  Requires you to **enter your passphrase** (Step 7.) with github\
+12.  Requires you to **enter your passphrase** (Step 7.) with github<br>
 (DON'T FORGET IT OR SAVE IT IN A SECURE PLACE.) 
 
 13. Open your ssh config file
