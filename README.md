@@ -50,6 +50,9 @@ $[a,b)$ such that $f(a) = 0$, then: <br>
 
 $$f(x) = \int_{a}^{x} \frac{df(t)}{dt} \, dt \quad text{for} x \in [a,b)$$
 
+## Local Developement
+
+1. Open index.html in your browser
 
 
 I learned github with the help of **Gwen_Faraday's** tutorial (Thanks!):<br>
