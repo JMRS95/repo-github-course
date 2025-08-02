@@ -195,4 +195,26 @@ The correct line is:
 git push -u origin <Your branch>
 ```
 
-10. Pull request
+10. You can see your changes also in github (Update your repository):
+It will tell you a branch has pushed, so you have to compare and do a pull
+request.
+- Go to 'Branches'
+- Compare & pull request
+- Conversation: Comment changes
+- Commits: All what is wanted to merge into the main branch
+- Files changed: Watch carefully what is added and removed.
+- Create pull request
+- Resolve conversation, discussions, permissons
+- Merge pull request
+
+This will reflect the changes in the remote repository (Github) NOT in the local
+
+11. To reflect them you have to `pull` the changes
+- If you haven't set the upstream:
+```bash
+git pull origin main
+```
+- Else:
+```bash
+git pull 
+```
