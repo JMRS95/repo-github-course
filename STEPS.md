@@ -125,5 +125,61 @@ Host github.com
 15. Now push your changes
 ```bash
 git push origin main
-``
+```
 
+======================================================================
+## Git branching
+======================================================================
+
+<!--
+o --- o --- o ---- o (main/master branch)
+            |
+            o ---- o (feature branch)
+
+
+
+       (branch 1)     o
+                    /   \ 
+(main) o --- o --- o --- o ---  o  (merging)
+                   |            /
+       (branch 2)  o --------- o 
+ -->
+
+1. Use git branch to list your current branches
+```bash
+git branch
+```
+2. Create a new branch
+```bash
+git checkout -b <Your_branch_name>
+```
+
+3. Switch between branch
+```bash
+git checkout -b <Branch>
+```
+
+4. When you modify on the branch you are working, when using ```git status```
+it will tell you on which branch you are, say...
+```On branch branch_name```
+```Changes not staged```
+
+5. In your new branch add and commit:
+```bash
+git add <Your modified files>
+```
+```bash
+git commit -m "<Your commit message>"
+```
+
+6. You can check that, **if you modified your file** (say README.md) **in your new branch**, 
+and then you return to your **main branch** you will see your file **unmodified:**
+
+```bash
+git checkout -b main
+```
+
+7. Compare the changes in your code
+```bash
+git diff
+```
