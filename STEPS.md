@@ -187,3 +187,12 @@ git diff <Your branch>
 ```bash
 git merge <Your branch>
 ```
+
+9. If we use `git push` in your new branch it will fail: 
+`fatal: The current branch .....`
+The correct line is:
+```bash
+git push -u origin <Your branch>
+```
+
+10. Pull request
