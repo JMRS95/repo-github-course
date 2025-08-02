@@ -174,12 +174,16 @@ git commit -m "<Your commit message>"
 
 6. You can check that, **if you modified your file** (say README.md) **in your new branch**, 
 and then you return to your **main branch** you will see your file **unmodified:**
-
 ```bash
 git checkout -b main
 ```
 
 7. Compare the changes in your code
 ```bash
-git diff
+git diff <Your branch>
+```
+
+8. Merge your new branch with the main branch
+```bash
+git merge <Your branch>
 ```
